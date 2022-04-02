@@ -1,3 +1,7 @@
+@import './icons.css';
+@import './fonts.css';
+@import './pay-form.css';
+@import './inputs.css';
 
 :root { 
   --black: #030102; 
@@ -10,10 +14,16 @@
   --text2regular: 300 0.75rem/normal Roboto;   
 }
 
+html{
+  block-size: 100%;
+}
+
 body {
+  margin: 0;
   color: var(--white);
-  background-color: var(--black);
+  background-color: #08003B;
   font: var(--heading1);
+  block-size: 100%;
 }
 
 

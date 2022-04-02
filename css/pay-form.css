@@ -1,0 +1,88 @@
+.payForm{
+  max-inline-size: 360px;
+  inline-size: 100%;
+  margin: auto;
+  text-align: center;
+  padding: 30px;
+  background-color: var(--white);
+  color: var(--black);
+  box-sizing: border-box;
+  border-radius: 20px;
+  transform: translateY(15%);
+}
+
+.payForm-header{
+  margin-block-end: 24px;
+}
+
+.payForm-logo img{
+  vertical-align: middle;
+  margin-block-end: 8px;
+}
+
+.payForm-title {
+  margin: 0;
+  font: var(--heading1);
+}
+
+.payForm-form{
+  color: var(--black);
+  font: var(--text1regular);
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.payForm-form input{
+  margin-block-end: 14px;
+}
+
+.payForm-container{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.payForm-container label{
+  white-space: nowrap;
+  inline-size: 100%;
+}
+
+
+.payForm-container-cvv input{
+  inline-size: 100%;
+  box-sizing: border-box;
+  margin-block-start: 12px;
+}
+
+
+
+.payForm-container-cardDate .cardDate{
+  display: flex;
+  align-items: center;
+  background-color: var(--grey2);
+  border-radius: 10px;
+  margin-block-end: 14px;
+  margin-block-start: 12px;
+  inline-size: 100%;
+}
+
+.payForm-container-cardDate .cardDate span{ 
+  margin: 0;
+  padding: 12px;
+  inline-size: 20px;
+  outline: none;
+}
+
+
+
+.payForm-container-cardDate .cardDate span:first-of-type{
+  padding-inline-end: 0;
+}
+
+.payForm-container-cardDate .cardDate span:nth-of-type(2){
+  padding-inline-start: 0;
+}
+
+

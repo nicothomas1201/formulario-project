@@ -1,0 +1,23 @@
+input{
+  background-color: var(--grey2);
+  border: 1px solid var(--grey2);
+  border-radius: 10px;
+  padding: 12px;
+  outline: none;
+}
+
+input[type="button"]{
+  background-color: var(--primary);
+  color: var(--white);
+}
+
+input.is-active, .cardDate.is-active{
+  background-color: var(--white);
+  box-shadow: 0px 4px 20px rgba(77, 166, 186, 0.38);
+}
+
+input[type="button"]{
+  cursor: pointer;
+  opacity: 1;
+}
+
