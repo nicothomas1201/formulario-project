@@ -28,7 +28,7 @@
 .payForm-form{
   color: var(--black);
   font: var(--text1regular);
-  text-align: justify;
+  text-align: left;
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -49,11 +49,21 @@
   inline-size: 100%;
 }
 
+.payForm-container-cvv{
+  position: relative;
+}
 
 .payForm-container-cvv input{
   inline-size: 100%;
   box-sizing: border-box;
   margin-block-start: 12px;
+}
+
+.payForm-container-cvv .icon-info{
+  position: absolute;
+  bottom: 27px;
+  transform: translateX(-100%);
+  right: 0px;
 }
 
 
@@ -85,4 +95,17 @@
   padding-inline-start: 0;
 }
 
+.payForm-containerCardNumber{
+  position: relative;
+}
 
+.payForm-containerCardNumber input{
+  inline-size: calc(100% - 30px);
+}
+
+.payForm-containerCardNumber i{
+  position: absolute;
+  bottom: 25px;
+  transform: translateX(-100%);
+  right: 0;
+}

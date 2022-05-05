@@ -1,17 +1,17 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('../font/icomoon.eot?8w34yj');
-  src:  url('../font/icomoon.eot?8w34yj#iefix') format('embedded-opentype'),
-    url('../font/icomoon.ttf?8w34yj') format('truetype'),
-    url('../font/icomoon.woff?8w34yj') format('woff'),
-    url('../font/icomoon.svg?8w34yj#icomoon') format('svg');
+  src:  url('../font/icomoon.eot?olnjpi');
+  src:  url('../font/icomoon.eot?olnjpi#iefix') format('embedded-opentype'),
+    url('../font/icomoon.ttf?olnjpi') format('truetype'),
+    url('../font/icomoon.woff?olnjpi') format('woff'),
+    url('../font/icomoon.svg?olnjpi#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
 
 [class^="icon-"], [class*=" icon-"] {
-  /* use !important to prevent issues with browser extensions that change fonts */
+  /* use !important to prevent issues with browser extensions that change ../font */
   font-family: 'icomoon' !important;
   speak: never;
   font-style: normal;
@@ -25,20 +25,11 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-info .path1:before {
+.icon-info:before {
   content: "\e900";
-  color: rgb(33, 150, 243);
+  color: #BCC3D1;
 }
-.icon-info .path2:before {
+.icon-creditCard:before {
   content: "\e901";
-  margin-left: -1em;
-  color: rgb(255, 255, 255);
-}
-.icon-info .path3:before {
-  content: "\e902";
-  margin-left: -1em;
-  color: rgb(255, 255, 255);
-}
-.icon-credit-card:before {
-  content: "\e903";
+  color: #BCC3D1;
 }

@@ -18,8 +18,11 @@
     <form action="" class="payForm-form">
       <label for="name">Nombre Completo</label>
       <input type="text" id="name" placeholder="Nicolás" required>
-      <label for="cardNumber">Número de Tarjeta de Crédito</label>
-      <input type="text" id="cardNumber" placeholder="1234 1234 1234 1234" required >
+      <div class="payForm-containerCardNumber">
+        <label for="cardNumber">Número de Tarjeta de Crédito</label>
+        <input type="text" id="cardNumber" placeholder="1234 1234 1234 1234" required >
+        <i class="icon-creditCard"></i>
+      </div>
       <div class="payForm-container">
         <div class="payForm-container-cardDate">
           <label for="date">Fecha vencimiento</label>
@@ -31,6 +34,7 @@
         <div class="payForm-container-cvv">
           <label for="password">CVV</label>
           <input type="text" id="password" placeholder="..." required> 
+          <i class="icon-info"></i>
         </div>
       </div>
       <label for="dir">Direccion</label>
@@ -38,7 +42,6 @@
       <input type="button" value="Confirmar Pago">
     </form>
   </div>
-  <!-- <span class="icon-info"><span class="path1"></span><span class="path2"></span><span class="path3"></span></span> -->
   <script src="./js/index.js"></script>
 </body>
 </html>
